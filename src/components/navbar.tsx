@@ -39,7 +39,9 @@ export function Navbar() {
             </svg>
           </a>
           <a
-            href="#install"
+            href="https://github.com/kingname/dont-reset-password"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full bg-foreground text-background px-4 py-1.5 text-xs font-medium transition-opacity hover:opacity-80"
           >
             {t("navInstall")}
