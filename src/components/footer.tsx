@@ -13,7 +13,7 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">{t("footerMadeWith")}</p>
           <div className="flex items-center gap-4 text-xs text-muted-foreground">
             <a
-              href="https://github.com"
+              href="https://github.com/kingname/dont-reset-password"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-colors"

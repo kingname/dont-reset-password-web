@@ -23,8 +23,11 @@ export function FooterCTA() {
           <Button
             size="lg"
             className="rounded-full px-10 py-6 text-base font-medium bg-foreground text-background hover:opacity-80 transition-opacity"
+            asChild
           >
-            {t("ctaButton")}
+            <a href="https://github.com/kingname/dont-reset-password" target="_blank" rel="noopener noreferrer">
+              {t("ctaButton")}
+            </a>
           </Button>
         </motion.div>
       </div>

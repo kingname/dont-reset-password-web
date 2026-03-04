@@ -32,8 +32,11 @@ export function Hero() {
               <Button
                 size="lg"
                 className="rounded-full px-8 text-sm font-medium bg-foreground text-background hover:opacity-80 transition-opacity"
+                asChild
               >
-                {t("heroCta")}
+                <a href="https://github.com/kingname/dont-reset-password" target="_blank" rel="noopener noreferrer">
+                  {t("heroCta")}
+                </a>
               </Button>
             </div>
             <p className="text-xs text-muted-foreground/60">{t("heroUsers")}</p>
